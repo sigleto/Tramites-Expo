@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Estilos/EstiloOrganismos.css'
+import '../Estilos/EstiloOrganismos.css'
 const Trafico = () => {
 
     return (

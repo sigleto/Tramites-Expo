@@ -1,5 +1,5 @@
 import React from "react";
-import './Estilos/EstiloOrganismos.css'
+import '../Estilos/EstiloOrganismos.css'
 const Catastro = () => {
 
     return (

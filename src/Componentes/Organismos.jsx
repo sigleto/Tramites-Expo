@@ -10,6 +10,9 @@ const Organismos = () => {
         <Link className="opcion" to="/AEAT" target="_blank">
           AEAT
         </Link>
+        <Link className="opcion" to="/SegSocial" target="_blank">
+          Seguridad Social
+        </Link>
         <Link className="opcion" to="/PoliciaNacional" target="_blank">
           Policía Nacional
         </Link>

@@ -1,10 +1,11 @@
 import { Route,Routes } from "react-router-dom";
-import AEAT from "../Componentes/AEAT";
+import AEAT from "../Componentes/Enlaces/AEAT";
 import Home from "../Componentes/Home";
-import Catastro from "../Componentes/Catastro";
-import Justicia from "../Componentes/Justicia";
-import PoliciaNacional from "../Componentes/PoliciaNacional";
-import Trafico from "../Componentes/Trafico";
+import Catastro from "../Componentes/Enlaces/Catastro";
+import Justicia from "../Componentes/Enlaces/Justicia";
+import SegSocial from "../Componentes/Enlaces/SeguridadSocial";
+import PoliciaNacional from "../Componentes/Enlaces/PoliciaNacional";
+import Trafico from "../Componentes/Enlaces/Trafico";
 import Ayuntamientos from "../Componentes/Ayuntamientos";
 import Organismos from "../Componentes/Organismos";
 import {AvisoAEAT1,AvisoAEAT2,AvisoAEAT3,AvisoAEAT4} from "../Componentes/Avisos/AvisosAEAT";
@@ -26,6 +27,7 @@ const Rutas=()=>{
             <Route path="/Trafico" element={<Trafico/>}/>
             <Route path="/Ayuntamientos" element={<Ayuntamientos/>}/>
             <Route path="/Catastro" element={<Catastro/>}/>
+            <Route path="/SegSocial" element={<SegSocial/>}/>
             <Route path="/Contacto" element={<Contacto/>}/>
             <Route path="/AvisoAEAT1" element={<AvisoAEAT1/>}/>
             <Route path="/AvisoAEAT2" element={<AvisoAEAT2/>}/>
