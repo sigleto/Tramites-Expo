@@ -9,7 +9,7 @@ const Contacto = () => {
   
   const accion = async (datos) => {
     try {
-      await fetch("https://papeleo-expo.vercel.app/Contacto", {
+      await fetch("https://tramites-expo-m2x2.vercel.app/Contacto", {
         method: 'POST',
         mode: 'cors',
         body: JSON.stringify(datos),
