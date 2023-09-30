@@ -1,0 +1,22 @@
+.navegador{
+    display:flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+.nav{
+    flex:1;
+    color: rgb(134, 89, 7);
+    margin-bottom: 20px; /* Añadir margen inferior */
+    
+}
+.titulin{
+    background-color: azure;
+}
+
+.nav :hover{
+    background-color: rgb(46, 226, 43);
+}

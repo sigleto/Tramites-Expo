@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/Contacto",
+        "destination": "https://pagina-react-para-vercel.vercel.app/Contacto"
+      }
+    ]
+  }
+  
