@@ -9,11 +9,11 @@ const Home = () => {
       <img src='burocracia.png'/>
       <h1 className="titulo">Bienvenido a Trámite Express</h1>
       <p className="descripcion">
-        Simplificamos el acceso en línea a trámites públicos comunes. Además,
-        ofrecemos breves notas informativas sobre los requisitos necesarios para
+        Simplificamos el acceso en línea a los trámites públicos más comunes. Además,
+        te ofrecemos breves notas informativas sobre los requisitos necesarios para
         cada trámite específico. ¡Facilitamos tu camino hacia la burocracia!
       </p>
-      <Link to="/Organismos" className="boton-comenzar">
+      <Link to="/Presentacion" className="boton-comenzar">
         Comenzar
       </Link>
     </div>

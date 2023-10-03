@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../Estilos/EstiloOrganismos.css'
 const Catastro = () => {
 
@@ -11,7 +12,10 @@ const Catastro = () => {
                 <a href='https://www1.sedecatastro.gob.es/Cartografia/mapa.aspx?buscar=S' target='_blank'>Buscar un inmueble por su referencia catastral</a>
                 </li>
                 <li className="lista">
-                <a href='https://www.sedecatastro.gob.es/Accesos/SECAccTramites.aspx' target='_blank'>Trámites diversos</a>
+                <Link to='/AvisoCatastro'>Consulta inmuebles por NIF</Link>
+                </li>
+                <li className="lista">
+                <a href='https://www.sedecatastro.gob.es/Accesos/SECAccTramites.aspx' target='_blank'>Otros trámites</a>
                 </li>
 
             </ul>

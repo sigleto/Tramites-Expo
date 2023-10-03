@@ -41,7 +41,7 @@ const Contacto = () => {
         
         <div className="campos comentarios">
           <label htmlFor="comentarios"><p>COMENTARIOS</p></label>
-          <textarea className="comentarios" placeholder="Puedes informarnos de algún trámite u organismo deseas que incluyamos,correción o sugerencia" {...register("comentarios")} />
+          <textarea className="comentarios" placeholder="Puedes informarnos de algún trámite u organismo que deseas que incluyamos,correción o sugerencia" {...register("comentarios")} />
         </div>
         <input className="enviando"type="submit" value="ENVIAR DATOS" />
         

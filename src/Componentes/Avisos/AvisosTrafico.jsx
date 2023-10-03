@@ -18,3 +18,30 @@ export const AvisosTrafico2=()=>{
       </div>
       )
 }
+export const AvisosTrafico3=()=>{
+    return(
+      <div className="aviso">
+      <p className="texto" > ¡ ATENCIÓN!: Para este trámite deberás estar dado de alta en Cl@ve Móvil.</p>
+      <Link className="aviso-link" to='/Trafico'>Volver</Link>
+      <a className="aviso-link" href='https://sede.dgt.gob.es/es/vehiculos/transferencias-de-vehiculos/cambio-titularidad-vehiculo/index.shtml' target='_blank'>Ir a trámite</a>
+      </div>
+      )
+}
+export const AvisosTrafico4=()=>{
+    return(
+      <div className="aviso">
+      <p className="texto" > ¡ ATENCIÓN!: Para este trámite deberás estar dado de alta en Cl@ve Móvil.</p>
+      <Link className="aviso-link" to='/Trafico'>Volver</Link>
+      <a className="aviso-link" href='https://sedeclave.dgt.gob.es/WEB_INTV_INTER/xhtml/acciones/iniciarSolicitudInforme.jsf' target='_blank'>Ir a trámite</a>
+      </div>
+      )
+}
+export const AvisosTrafico5=()=>{
+    return(
+      <div className="aviso">
+      <p className="texto" > ¡ ATENCIÓN!: Para este trámite deberás estar dado de alta en Cl@ve Móvil.</p>
+      <Link className="aviso-link" to='/Trafico'>Volver</Link>
+      <a className="aviso-link" href='https://sede.dgt.gob.es/es/permisos-de-conducir/consulta-tus-puntos/' target='_blank'>Ir a trámite</a>
+      </div>
+      )
+}

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Nav from './Nav'
 import Rutas from './Routes/Routes'
+import Home from './Componentes/Home'
 import './App.css'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-    <Nav/>
+     <Nav/>
     <Rutas/>
     </>
   )

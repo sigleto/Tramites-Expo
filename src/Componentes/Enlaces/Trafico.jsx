@@ -15,8 +15,18 @@ const Trafico = () => {
                 <li className="lista">
                     <a href='https://sedeclave.dgt.gob.es/WEB_NCIT_CONSULTA/solicitarCita.faces' target='_blank'>Cita renovación permiso de conducir</a>
                 </li>
+                               
                 <li className="lista">
                 <Link to='/AvisosTrafico2'>Cita previa para pasar la ITV</Link>
+                </li>
+                <li className="lista">
+                <Link to='/AvisosTrafico3'>Cambio en la titularidad de un vehículo</Link>
+                </li>
+                <li className="lista">
+                <Link to='/AvisosTrafico4'>Informe detallado de un vehículo</Link>
+                </li>
+                <li className="lista">
+                <Link to='/AvisosTrafico5'>Consulta de puntos del carnet de conducir</Link>
                 </li>
                 
             </ul>

@@ -37,4 +37,21 @@ export const AvisoAEAT4 = () => {
     </div>
   )
 }
-
+export const AvisoAEAT5 = () => {
+  return (
+    <div className="aviso">
+      <p className="texto"> ¡ ATENCIÓN!: Para este trámite deberás estar dado de alta en Cl@ve Móvil.Ten a mano tu DNI;la Agencia tributaria te pedirá el número de tu DNI y la fecha de caducidad del mismo ( o de expedición en caso de que el DNI sea permanente).A continuación saldrá una pantalla avisando de que te envían un PIN a tu teléfono. En cuanto lo ingreses, ya  podrás realizar el trámite</p>
+      <Link className="aviso-link" to='/AEAT'>Volver</Link>
+      <a className="aviso-link" href='https://sede.agenciatributaria.gob.es/Sede/procedimientoini/GZ25.shtml'target='_blank' >Ir a trámite</a>
+    </div>
+  )
+}
+export const AvisoAEAT6 = () => {
+  return (
+    <div className="aviso">
+      <p className="texto"> ¡ ATENCIÓN!: Para este trámite deberás estar dado de alta en Cl@ve Móvil.Ten a mano tu DNI;la Agencia tributaria te pedirá el número de tu DNI y la fecha de caducidad del mismo ( o de expedición en caso de que el DNI sea permanente).A continuación saldrá una pantalla avisando de que te envían un PIN a tu teléfono. En cuanto lo ingreses, ya  podrás realizar el trámite</p>
+      <Link className="aviso-link" to='/AEAT'>Volver</Link>
+      <a className="aviso-link" href='https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G613.shtml' target='_blank' >Ir a trámite</a>
+    </div>
+  )
+}

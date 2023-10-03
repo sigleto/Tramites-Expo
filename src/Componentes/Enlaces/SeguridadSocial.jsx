@@ -4,10 +4,10 @@ import '../Estilos/EstiloOrganismos.css'
 const SegSocial = () => {
     return (
         <div className="container">
-            <img src='SeguridadSocial.jpg'/>
+            <img src='SeguridadSocial.jpg' />
             <h2 className="tituloO">Servicios de la Seguridad Social</h2>
             <ul className="servicios-list" >
-                
+
                 <li className="lista"><a
                     href='https://imv.seg-social.es/'
                     target='_blank' >Solicitud Ingreso mínimo vital</a></li>
@@ -20,7 +20,12 @@ const SegSocial = () => {
                 <li className="lista"><a
                     href='https://pssc.seg-social.es/prestacion-incapacidad-temporal-inss'
                     target='_blank' >Solicitud Prestacion Incapacidad Temporal</a></li>
-                
+
+                <li className="lista"><Link to="/AvisoSegSocial1">Obtención del número de afiliado de la Seg Social</Link>
+                </li>
+                <li className="lista"><Link to="/AvisoSegSocial2">Solicitud de la pensión por jubilación</Link>
+                </li>
+
 
             </ul>
 
